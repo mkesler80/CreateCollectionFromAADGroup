@@ -1,4 +1,5 @@
 # CreateCollectionFromAADGroup
+<<<<<<< HEAD
 This script is intended to allow ConfigMgr Device Collections to be created from AAD Groups.
 The use case is targeted at creating a Device Collection where all the devices are Autopilot devices.
 Since a dynamic AAD group can quickly be created to target these devices it is easier to pull all the devices from
@@ -22,3 +23,6 @@ Execute the script from PowerShell
 -CMSiteServer            Site Server for the site code specified
 -CMCollectionName        Name of a new or existing Device Collection to include devices in membership
 -AADGroupName            Name of AAD group that contains devices to be added to the collection
+=======
+Create a ConfigMgr Device Collection from an AAD Device Group.  Intended to be used to create a collection of devices added from AutoPilot
+>>>>>>> b808e022c82b684ce48a3ade8c724b189a0396da
