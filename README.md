@@ -17,8 +17,12 @@ Execute the script from PowerShell
 
 
 # Full parameter documentation
--CMSiteCode              Site code for the ConfigMgr site where the collection resides
--CMSiteServer            Site Server for the site code specified
--CMCollectionName        Name of a new or existing Device Collection to include devices in membership
--AADGroupName            Name of AAD group that contains devices to be added to the collection
+ -CMSiteCode              Site code for the ConfigMgr site where the collection resides
+
+ -CMSiteServer            Site Server for the site code specified
+
+ -CMCollectionName        Name of a new or existing Device Collection to include devices in membership
+
+ -AADGroupName            Name of AAD group that contains devices to be added to the collection
+ 
 
