@@ -1,5 +1,5 @@
 # CreateCollectionFromAADGroup
-<<<<<<< HEAD
+
 This script is intended to allow ConfigMgr Device Collections to be created from AAD Groups.
 The use case is targeted at creating a Device Collection where all the devices are Autopilot devices.
 Since a dynamic AAD group can quickly be created to target these devices it is easier to pull all the devices from
